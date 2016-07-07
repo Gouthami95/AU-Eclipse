@@ -15,6 +15,7 @@ public class Calculator implements CalcSpec {
 		val2=input.nextInt();
 		System.out.println("Choose an Operation\n1.Add\n2.Sub\n3.Mul\n4.Div\nEnter your option:");
 		int option=input.nextInt();
+		System.out.println("Changes");
 		switch(option)
 		{
 			case 1:System.out.println("Addition Result:"+calObj.add(val1,val2));
